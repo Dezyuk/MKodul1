@@ -1,0 +1,6 @@
+@MKodul1_HostAddress = http://localhost:5023
+
+GET {{MKodul1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
