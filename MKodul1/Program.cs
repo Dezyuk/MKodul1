@@ -32,6 +32,8 @@ builder.Services.AddExceptionHandler<CategoryNotFoundExceptionHandler>();
 builder.Services.AddExceptionHandler<InvalidQuizRequestExceptionHandler>();
 builder.Services.AddExceptionHandler<QuestionNotFoundExceptionHandler>();
 
+builder.Services.AddExceptionHandler<ServerExceptionsHandler>();
+
 builder.Services.AddProblemDetails();
 
 
